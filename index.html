@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChicWardrobe - Elegant Ladies Clothing</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">Fable & Thread</a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#new-arrivals">New Arrivals</a></li>
+                    <li><a href="#dresses">Casual wear Dresses</a></li>
+                    <li><a href="#tops">Party wear Dresses</a></li>
+                    <li><a href="#accessories">Bridal Dresses</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#cart" class="cart-icon">🛒 <span id="cart-count">0</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h1>Discover Your Style</h1>
+                <p>Elegant and modern clothing for every woman.</p>
+                <a href="#new-arrivals" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+        <section id="new-arrivals" class="products-section">
+            <div class="container">
+                <h2>New Arrivals</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="images/black.jpg" alt="Elegant Dress">
+                        <h3>Black Bow Dress</h3>
+                        <p class="price">$779.99</p>
+                        <button class="btn add-to-cart" data-product-id="P001" data-product-name="Elegant Flowy Dress">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/mint green lawn suit.jpg" alt="Classic dress">
+                        <h3>Mint Green Lawn Suit</h3>
+                        <p class="price">$445.00</p>
+                        <button class="btn add-to-cart" data-product-id="P002" data-product-name="Classic Silk Blouse">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/velvet silk outfit.jpg" alt="New">
+                        <h3>Velvet Silk Dress</h3>
+                        <p class="price">$555.50</p>
+                        <button class="btn add-to-cart" data-product-id="P003" data-product-name="High-Waist A-line Skirt">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/long shirt with cappry dress.jpg" alt="Stylish">
+                        <h3>Long Shirt With Cappry Dress</h3>
+                        <p class="price">$699.00</p>
+                        <button class="btn add-to-cart" data-product-id="P004" data-product-name="Sophisticated Blazer">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Example of another category section, you'd duplicate and change content -->
+        <section id="Casual wear " class="products-section">
+            <div class="container">
+                <h2>Casual wear </h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="images/Elegant Yellow Floral  Dress.jpg" alt="img">
+                        <h3>Elegant Yellow Floral Dress</h3>
+                        <p class="price">$420.00</p>
+                        <button class="btn add-to-cart" data-product-id="D001" data-product-name="Evening Maxi Dress">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/causal.jpg" alt="Casual Dress">
+                        <h3>Casual Dress</h3>
+                        <p class="price">$365.00</p>
+                        <button class="btn add-to-cart" data-product-id="D002" data-product-name="Casual Midi Dress">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/Black in dark.jpg" alt="Casual Dress">
+                        <h3>Black in dark Casual Dress</h3>
+                        <p class="price">$565.00</p>
+                        <button class="btn add-to-cart" data-product-id="D002" data-product-name="Casual Midi Dress">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/Graceful.jpg" alt="Casual Dress">
+                        <h3>Graceful Casual Dress</h3>
+                        <p class="price">$705.00</p>
+                        <button class="btn add-to-cart" data-product-id="D002" data-product-name="Casual Midi Dress">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Party wear " class="products-section">
+            <div class="container">
+                <h2>Party wear </h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="images/lilac chiffon suit.jpg" alt="lilac chiffon suit">
+                        <h3>Lilac Party wear</h3>
+                        <p class="price">$520.00</p>
+                        <button class="btn add-to-cart" data-product-id="D001" data-product-name="Evening Maxi Dress">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/party.jpg" alt="party wear">
+                        <h3>Maroon Party wear</h3>
+                        <p class="price">$665.00</p>
+                        <button class="btn add-to-cart" data-product-id="D002" data-product-name="Casual Midi Dress">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/party wear.jpg" alt="party wear">
+                        <h3>Off White party wear</h3>
+                        <p class="price">$555.00</p>
+                        <button class="btn add-to-cart" data-product-id="D002" data-product-name="Casual Midi Dress">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/white silk hand embroidered dress.jpg" alt="party wear">
+                        <h3>White Silk Party Wear</h3>
+                        <p class="price">$670.00</p>
+                        <button class="btn add-to-cart" data-product-id="D002" data-product-name="Casual Midi Dress">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Bridal wear" class="products-section">
+            <div class="container">
+                <h2>Bridal wear </h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="images/zinc red kameez bridal lehenga.jpg" alt="zinc red kameez bridal lehenga">
+                        <h3>Zinc Red kameez Bridal Lehenga</h3>
+                        <p class="price">$1120.00</p>
+                        <button class="btn add-to-cart" data-product-id="D001" data-product-name="Evening Maxi Dress">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/walima bridal lehenga.jpg" alt="walima bridal lehenga">
+                        <h3>Walima Bridal Lehenga</h3>
+                        <p class="price">$1265.00</p>
+                        <button class="btn add-to-cart" data-product-id="D002" data-product-name="Casual Midi Dress">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/maroon velvet bridal lehenga.jpg" alt="maroon velvet bridal lehenga">
+                        <h3>Maroon Velvet Bridal Lehenga</h3>
+                        <p class="price">$1235.00</p>
+                        <button class="btn add-to-cart" data-product-id="D002" data-product-name="Casual Midi Dress">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="images/off white lehenga.jpg" alt="off white lehenga">
+                        <h3>Off White Lehenga</h3>
+                        <p class="price">$8765.00</p>
+                        <button class="btn add-to-cart" data-product-id="D002" data-product-name="Casual Midi Dress">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About Fable & Thread</h2>
+                <p>Welcome to Fable & Thread, where elegance meets contemporary fashion. We believe every woman deserves to feel confident and beautiful in what she wears. Our curated collection features high-quality, stylish apparel designed to empower and inspire.</p>
+                <p>From timeless classics to the latest trends, we meticulously select each piece to ensure it embodies sophistication and comfort. Explore our unique range and find your next favorite outfit with us.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Fable & Thread. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Pinterest</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
